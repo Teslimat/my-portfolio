@@ -121,6 +121,53 @@ nav li .active a {
   color: #ffffff;
 }
 
+.about-content{
+    padding: 60px 20px;
+}
+
+.content{
+    margin: 30px;
+
+}
+
+.content h1{
+    font-family: var(--primary-font);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .btn-branding{
+background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.content .btn-branding:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.img-fluid{
+    max-width: 75% !important;
+}
+
+
+
 footer {
   margin: 60px 0;
 }
@@ -215,6 +262,10 @@ footer .social-links a:hover {
   .project-details p {
     text-align: center;
     font-size: 13px;
+  }
+
+  .content{
+    text-align: center;
   }
 
   footer .email-link {
