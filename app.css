@@ -1,0 +1,144 @@
+:root {
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+  color: black;
+  font-weight: bold;
+}
+
+p{
+    font-family: var(--secondary-font);
+    line-height: 30px;
+}
+
+.profile{
+    text-align: center;
+    padding: 100px 20px;
+    background: var(--primary-color);
+    font-weight: bold;
+}
+
+.profile h1{
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.profile h2{
+    font-family: var(--primary-font);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.profile p{
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.profile .btn-branding{
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.project-details{
+    padding: 120px 60px;
+}
+
+.project-details h2{
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.project-details p{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.project-details .btn-branding{
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.project-details .btn-branding:hover{
+    background: var(--secondary-color);
+    color: #ffffff;
+}
+
+footer{
+    margin: 60px 0;
+}
+
+footer .contact-box{
+    background-color: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer h4{
+    font-size: 48px;
+    font-weight: bold;
+}
+footer p{
+    margin: 0;
+}
+
+footer .btn-branding{
+     background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+footer .email-link{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .email-link:hover{
+    color: var(--secondary-color);
+}
+
+footer .social-links a{
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 20px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    background: var(--secondary-color);
+    color: #ffffff;
+}
