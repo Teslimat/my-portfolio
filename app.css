@@ -16,135 +16,166 @@ h6 {
   font-weight: bold;
 }
 
-p{
-    font-family: var(--secondary-font);
-    line-height: 30px;
+p {
+  font-family: var(--secondary-font);
+  line-height: 30px;
 }
 
-.profile{
-    text-align: center;
-    padding: 100px 20px;
-    background: var(--primary-color);
-    font-weight: bold;
+nav {
+  padding: 20px 0;
 }
 
-.profile h1{
-    font-size: 96px;
-    font-weight: bold;
-    line-height: 1.5;
+nav ul {
+  padding: 0;
 }
 
-.profile h2{
-    font-family: var(--primary-font);
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 500;
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
 }
 
-.profile p{
-    font-family: var(--secondary-font);
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    color: #272142;
+nav li {
+  display: inline;
+  list-style: none;
+  font-weight: 600;
+  line-height: 42px;
+  margin-left: 15px;
 }
 
-.profile .btn-branding{
-    background-color: var(--secondary-color);
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 4px;
-    font-size: 18px;
+nav a:hover,
+nav li .active a {
+  color: var(--secondary-color);
 }
 
-.project-details{
-    padding: 120px 60px;
+.sm-logo{
+    max-width: 80px;
 }
 
-.project-details h2{
-    font-family: var(--primary-font);
-    font-weight: bold;
-    font-size: 64px;
+.profile {
+  text-align: center;
+  padding: 100px 20px;
+  background: var(--primary-color);
+  font-weight: bold;
 }
 
-.project-details p{
-    font-family: var(--secondary-font);
-    font-size: 16px;
-    font-weight: 500;
-    text-align: justify;
+.profile h1 {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-.project-details .btn-branding{
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
-    text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
+.profile h2 {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
-.project-details .btn-branding:hover{
-    background: var(--secondary-color);
-    color: #ffffff;
+.profile p {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
 }
 
-footer{
-    margin: 60px 0;
+.profile .btn-branding {
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
 }
 
-footer .contact-box{
-    background-color: var(--primary-color);
-    padding: 30px 120px;
-    border-radius: 10px;
+.project-details {
+  padding: 120px 60px;
 }
 
-footer h4{
-    font-size: 48px;
-    font-weight: bold;
-}
-footer p{
-    margin: 0;
-    font-weight: 500;
+.project-details h2 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 64px;
 }
 
-footer .btn-branding{
-     background-color: var(--secondary-color);
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 4px;
-    font-size: 18px;
+.project-details p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
 }
 
-footer .email-link{
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
+.project-details .btn-branding {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-footer .email-link:hover{
-    color: var(--secondary-color);
+.project-details .btn-branding:hover {
+  background: var(--secondary-color);
+  color: #ffffff;
 }
 
-footer .social-links a{
-    color: var(--secondary-color);
-    background: var(--primary-color);
-    padding: 10px 14px;
-    font-size: 18px;
-    border-radius: 50%;
-    margin: 0 20px;
-    transition: all 100ms ease-in-out;
+footer {
+  margin: 60px 0;
 }
 
-footer .social-links a:hover{
-    background: var(--secondary-color);
-    color: #ffffff;
+footer .contact-box {
+  background-color: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-@media(min-width: 600px){
+footer h4 {
+  font-size: 48px;
+  font-weight: bold;
+}
+footer p {
+  margin: 0;
+  font-weight: 500;
+}
+
+footer .btn-branding {
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--secondary-color);
+  color: #ffffff;
+}
+
+/* @media(min-width: 600px){
     
     .project-details{
         padding: 0;
@@ -157,41 +188,40 @@ footer .social-links a:hover{
      footer h4{
         font-size: 35px;
     }
-}
+} */
 
+@media (max-width: 900px) {
+  .profile h1 {
+    font-size: 41px;
+  }
 
-@media(max-width:900px){
-    .profile h1{
-        font-size: 41px;
-    }
+  .profile h2 {
+    font-size: 16px;
+  }
 
-    .profile h2{
-        font-size: 18px;
-    }
+  .profile p {
+    font-size: 20px;
+  }
 
-    .profile p{
-        font-size: 20px;
-    }
+  .project-details {
+    padding: 0;
+    text-align: center;
+  }
 
-    .project-details{
-        padding: 0;
-        text-align: center;
-    }
+  .project-details h2 {
+    font-size: 40px;
+  }
 
-    .project-details h2{
-        font-size: 40px;
-    }
+  .project-details p {
+    text-align: center;
+    font-size: 13px;
+  }
 
-    .project-details p{
-        text-align: center;
-        font-size: 13px;
-    }
+  footer .email-link {
+    font-size: 20px;
+  }
 
-    footer .email-link{
-        font-size: 20px;
-    }
-
-    footer .author{
-        font-size: 10px;
-    }
+  footer .author {
+    font-size: 10px;
+  }
 }
