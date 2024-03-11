@@ -106,6 +106,7 @@ footer h4{
 }
 footer p{
     margin: 0;
+    font-weight: 500;
 }
 
 footer .btn-branding{
@@ -141,4 +142,56 @@ footer .social-links a{
 footer .social-links a:hover{
     background: var(--secondary-color);
     color: #ffffff;
+}
+
+@media(min-width: 600px){
+    
+    .project-details{
+        padding: 0;
+        text-align: center;
+    }
+    .project-details h2{
+        font-size: 50px;
+    }
+
+     footer h4{
+        font-size: 35px;
+    }
+}
+
+
+@media(max-width:900px){
+    .profile h1{
+        font-size: 41px;
+    }
+
+    .profile h2{
+        font-size: 18px;
+    }
+
+    .profile p{
+        font-size: 20px;
+    }
+
+    .project-details{
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-details h2{
+        font-size: 40px;
+    }
+
+    .project-details p{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    footer .email-link{
+        font-size: 20px;
+    }
+
+    footer .author{
+        font-size: 10px;
+    }
 }
